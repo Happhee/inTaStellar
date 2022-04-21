@@ -6,14 +6,15 @@ interface ISong {
 }
 
 // Todo 클래스는 ITodo 인터페이스를 구현하여야 한다.
-class Song implements ISong {
+class Song  {
   constructor(
-    public artist: string,
-    public title: string,
-    public isDance: boolean
+     artist: string,
+     title: string,
+     isDance: boolean
   ) {}
 }
 
 const song = new Song("IVE", "LOVE DIVE", true);
+// const song = new ISong("IVE", "LOVE DIVE", true);
 
 console.log(song);

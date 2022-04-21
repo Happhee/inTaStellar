@@ -8,4 +8,5 @@ var Song = /** @class */ (function () {
     return Song;
 }());
 var song = new Song("IVE", "LOVE DIVE", true);
+// const song = new ISong("IVE", "LOVE DIVE", true);
 console.log(song);
