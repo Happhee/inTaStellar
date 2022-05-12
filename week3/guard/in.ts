@@ -15,5 +15,5 @@ function dressUp(kind: Top | Bottom) {
         console.log(kind.bottom);
     }
 }
-dressUp({top : "셔츠"})			// 셔츠
-dressUp({bottom : "치마"})		// 치마
+// dressUp({top : "셔츠"})			// 셔츠
+// dressUp({bottom : "치마"})		// 치마

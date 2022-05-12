@@ -5,4 +5,4 @@ const namedCoordinate = {};
 
 
 Object.assign(namedCoordinate, coordinate, id);
-// namedCoordinate.name;
+namedCoordinate.name;
